@@ -18,11 +18,13 @@ Check out the live application here: [TrackBud Demo](https://your-demo-link.com)
 
 ## 📸 Screenshots
 
-<kbd><img width="900" alt="trackbud-dashboard" src="https://your-screenshot-link.com/dashboard.png"></kbd>
+<kbd><img width="900" alt="trackbud-dashboard" src="https://github.com/swarup-j/TrackBud/blob/main/public/images/image1.png"></kbd>
 
-<kbd><img width="900" alt="trackbud-auth" src="https://your-screenshot-link.com/auth.png"></kbd>
+<kbd><img width="900" alt="trackbud-transactions" src="https://github.com/swarup-j/TrackBud/blob/main/public/images/image2.png"></kbd>
 
-<kbd><img width="900" alt="trackbud-mobile" src="https://your-screenshot-link.com/mobile.png"></kbd>
+<kbd><img width="900" alt="trackbud-manage" src="https://github.com/swarup-j/TrackBud/blob/main/public/images/image3.png"></kbd>
+<kbd><img width="900" alt="trackbud-dashboard-dark" src="https://github.com/swarup-j/TrackBud/blob/main/public/images/image4.png"></kbd>
+<kbd><img width="900" alt="trackbud-dashboard-" src="https://github.com/swarup-j/TrackBud/blob/main/public/images/image4.png"></kbd>
 
 ## 📦 Tech Stack
 
