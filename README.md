@@ -4,13 +4,13 @@
 
 ## 🚀 Features
 
-- 🔐 User authentication and session management via **Clerk**
-- 📊 Real-time income and expense tracking
-- 🗂️ Categorized transactions for better insights
-- 📅 Monthly and yearly financial summaries
-- 🌙 Fully responsive dark/light mode UI
-- ⚡ Super-fast performance with **Bun** as the runtime
-- 🎨 Elegant and accessible design powered by **Radix UI**
+- User authentication and session management via **Clerk**
+- Real-time income and expense tracking
+- Categorized transactions for better insights
+- Monthly and yearly financial summaries
+- Fully responsive dark/light mode UI
+- Super-fast performance with **Bun** as the runtime
+- Elegant and accessible design powered by **Radix UI**
 
 ## 🔗 Live Demo
 
@@ -55,7 +55,7 @@ Before starting, make sure you have:
 - Navigate to the project directory:
 
   ```
-  cd Airbnb
+  cd TrackBud
   ```
 
 - Install the dependencies:
@@ -70,27 +70,18 @@ Before starting, make sure you have:
 
   2.  Add the following variables to the .env.local file, replacing the placeholder values with your own:
 
-            ```
-
-      DATABASE_URL=<your-neon-postgres-url>
-      CLERK_PUBLISHABLE_KEY=<your-clerk-publishable-key>
-      CLERK_SECRET_KEY=<your-clerk-secret-key>
-      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your-clerk-publishable-key>
-      NEXTAUTH_SECRET=<your-nextauth-secret>
-
-            ```
-
   ```
+  DATABASE_URL=<your-neon-postgres-url>
+  CLERK_PUBLISHABLE_KEY=<your-clerk-publishable-key>
+  CLERK_SECRET_KEY=<your-clerk-secret-key>
+  NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your-clerk-publishable-key>
+  NEXTAUTH_SECRET=<your-nextauth-secret>
+  ```
+
   - Push Prisma schema to your database:
 
-
-
   ```
-
   npx prisma db push
-
-  ```
-
   ```
 
 - Run the development server:
@@ -100,7 +91,3 @@ Before starting, make sure you have:
   ```
 
 - Visit the app at http://localhost:3000
-
-```
-
-```
