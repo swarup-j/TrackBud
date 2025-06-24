@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TrackBud
 
-## Getting Started
+**TrackBud** is a modern budget tracking web application built with cutting-edge technologies including **Next.js**, **Clerk**, **Neon**, **Prisma**, **Tailwind CSS**, **Bun**, and **Radix UI**.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- 🔐 User authentication and session management via **Clerk**
+- 📊 Real-time income and expense tracking
+- 🗂️ Categorized transactions for better insights
+- 📅 Monthly and yearly financial summaries
+- 🌙 Fully responsive dark/light mode UI
+- ⚡ Super-fast performance with **Bun** as the runtime
+- 🎨 Elegant and accessible design powered by **Radix UI**
+
+## 🔗 Live Demo
+
+Check out the live application here: [TrackBud Demo](https://your-demo-link.com)
+
+## 📸 Screenshots
+
+<kbd><img width="900" alt="trackbud-dashboard" src="https://your-screenshot-link.com/dashboard.png"></kbd>
+
+<kbd><img width="900" alt="trackbud-auth" src="https://your-screenshot-link.com/auth.png"></kbd>
+
+<kbd><img width="900" alt="trackbud-mobile" src="https://your-screenshot-link.com/mobile.png"></kbd>
+
+## 📦 Tech Stack
+
+- [Next.js](https://nextjs.org/) – App Router & Server Actions
+- [Bun](https://bun.sh/) – Blazing fast JS runtime and bundler
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+- [Clerk](https://clerk.dev/) – Authentication and user management
+- [Neon](https://neon.tech/) – Scalable serverless Postgres
+- [Prisma](https://www.prisma.io/) – ORM for type-safe database access
+- [Radix UI](https://www.radix-ui.com/) – Primitives for accessible UI components
+
+## 📄 Prerequisites
+
+Before starting, make sure you have:
+
+- **Bun** installed: [https://bun.sh/](https://bun.sh/)
+- **Node.js** (if not using Bun)
+- **Git** installed on your machine
+- A **Neon Postgres** database set up
+- A **Clerk** project for authentication
+
+## 🛠️ Installation
+
+- Clone the repository:
+
+  ```
+  git clone https://github.com/swarup-j/TrackBud
+  ```
+
+- Navigate to the project directory:
+
+  ```
+  cd Airbnb
+  ```
+
+- Install the dependencies:
+
+  ```
+  bun install
+  ```
+
+- Set up the environment variables:
+
+  1.  Create a `.env.local` file in the root directory.
+
+  2.  Add the following variables to the .env.local file, replacing the placeholder values with your own:
+
+            ```
+
+      DATABASE_URL=<your-neon-postgres-url>
+      CLERK_PUBLISHABLE_KEY=<your-clerk-publishable-key>
+      CLERK_SECRET_KEY=<your-clerk-secret-key>
+      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your-clerk-publishable-key>
+      NEXTAUTH_SECRET=<your-nextauth-secret>
+
+            ```
+
+  ```
+  - Push Prisma schema to your database:
+
+
+
+  ```
+
+  npx prisma db push
+
+  ```
+
+  ```
+
+- Run the development server:
+
+  ```
+  bun run dev
+  ```
+
+- Visit the app at http://localhost:3000
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
