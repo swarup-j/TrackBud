@@ -14,7 +14,7 @@
 
 ## 🔗 Live Demo
 
-Check out the live application here: [TrackBud Demo](https://your-demo-link.com)
+Check out the live application here: [TrackBud Demo](https://trackbud-new.vercel.app/)
 
 ## 📸 Screenshots
 
